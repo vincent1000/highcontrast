@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Page Remove="dark.xaml" />
+    <Page Remove="default.xaml" />
+    <Page Remove="Dictionary.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="dark.xaml" />
+    <Resource Include="default.xaml" />
+    <Resource Include="Dictionary.xaml" />
+  </ItemGroup>
+
+</Project>
